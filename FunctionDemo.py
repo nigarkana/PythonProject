@@ -5,5 +5,6 @@ def greet_me (name):
 greet_me("Mahid Shah!")
 
 def greet_mee():
-    print("Good morning!")
-greet_mee()
+    return "Good morning!"
+
+print(greet_mee())
